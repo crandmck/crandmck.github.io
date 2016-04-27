@@ -20,6 +20,8 @@ redirect_from: "/en/index.html"
 
 <section id="intro">
 
+  <h1>NOTE: This is a temporary test site, duplicating <a href="http://expressjs.com">http://expressjs.com</a>.</h1>
+
   <div id="boxes" class="clearfix">
       <div id="web-applications">
           <h3>Web Applications</h3> Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
