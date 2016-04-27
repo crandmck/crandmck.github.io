@@ -1,6 +1,7 @@
-# expressjs.com
+# Temporary test site for expressjs.com
 
-This is the repository of the website [expressjs.com](http://expressjs.com). It is hosted directly from the repository as a [GitHub Pages](https://pages.github.com/) website.
+This is a temporary test repository for [expressjs.com](http://expressjs.com). 
+Please see that site for official complete Express documentation.
 
 ## Local Setup
 
