@@ -206,14 +206,14 @@ a {
   border-left: none;
 }
 
-#logo .express {
+#logo .rand {
   display: block;
   font: 25px "Helvetica Neue", "Open Sans", sans-serif;
   font-weight: 100;
   color: #444;
 }
 
-#description .express {
+#description .rand {
   display: block;
   font: 4.5em "Helvetica Neue", "Open Sans", sans-serif;
   font-weight: 100;
@@ -229,7 +229,7 @@ a {
 #description .description {
   position: relative;
   top: -5px;
-  font: 100 4.2em "Helvetica Neue", "Open Sans", sans-serif;
+  font: 100 2.2em "Helvetica Neue", "Open Sans", sans-serif;
   color: #aeaeae;
   line-height: .75;
 }
