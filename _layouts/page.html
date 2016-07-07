@@ -18,15 +18,9 @@
       {% include header/header-{{ page.lang }}.html %}
 
       <div id="overlay"></div>
-
-      {% if page.lang != 'en' %}
-        <div id="i18n-notice-box" class="doc-box doc-warn">
-          {% include i18n-notice.html %}
-        </div>
-      {% endif %}
-
-      {{ content }}
-
+      <div class="page-content">
+       {{ content }}
+      </div>
     </section>
 
     {% include footer/footer-{{ page.lang }}.html %}
