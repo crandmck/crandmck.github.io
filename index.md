@@ -12,7 +12,7 @@ redirect_from: "/en/index.html"
     <section id="description">
         <a href="/" class="rand">C. Rand McKinney</a>
 
-        <span class="description">Writing documentation for software developers for over twenty years....</span>
+        <span class="description">Writing documentation for software developers for over twenty-five years....</span>
     </section>
 </section>
 
