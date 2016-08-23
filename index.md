@@ -6,25 +6,19 @@ lang: en
 redirect_from: "/en/index.html"
 ---
 <section id="home-content">
-    {% include header/header-en.html %}
     <div id="overlay"></div>
-
     <section id="description">
         <a href="/" class="rand">C. Rand McKinney</a>
-
         <span class="description">Writing documentation for software developers for over twenty-five years....</span>
     </section>
 </section>
 
 <section id="intro">
-
   <div id="boxes" class="clearfix">
- 
       <div id="web-applications"></div>
 
       <div id="apis">
             Over twenty years experience documenting and developing technology for some of the most innovative companies in the world .
-
       </div>
 
       <div id="performance">
@@ -47,6 +41,4 @@ redirect_from: "/en/index.html"
         </ul>
       </div>
   </div>
-
 </section>
-
