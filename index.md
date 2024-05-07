@@ -1,0 +1,20 @@
+---
+layout: home
+title: C. Rand McKinney
+tagline: Documentation for software developers....
+tagline2: Over twenty-five years experience documenting and developing technology for some of the most innovative companies in the world.
+---
+
+
+- **Adobe** - Developer docs for Sensei ML platform
+- **IBM/StrongLoop** - Node.js technology pioneer
+- **Kabam** - Mobile gaming
+- **Linden Lab** (maker of Second Life)
+- **Sun Microsystems**
+- **Google**
+- **Netscape**
+- **Borland**
+- Start-ups: Multiverse Network, Lutris Technologies, Kabam, ...
+
+
+

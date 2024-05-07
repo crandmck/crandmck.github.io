@@ -377,11 +377,10 @@ html[xmlns] .clearfix {
   line-height: 1.25em;
 }
 
-#boxes div {
-  width: 215px;
+#boxes div, #boxes ul {
+  width: 270px;
   margin-right: 50px;
   float: left;
-  list-style: none;
   padding-bottom: 20px;
 }
 
@@ -596,13 +595,13 @@ footer {
   margin: 70px 10px 30px 10px;
 }
 
-#footer-content {
+.footer-content {
   display: table;
   margin: 0 auto;
 }
 
-#footer-content div {
-  float: left;
+.footer-content div {
+  padding: auto 0;
   margin-right: 20px;
   background-repeat: no-repeat;
   background-position: 0 1px;
@@ -1007,12 +1006,12 @@ h2 a {
     margin: 0;
   }
 
-  #footer-content {
+  .footer-content {
     display: block;
     margin-left: 5%;
   }
 
-  #footer-content div {
+  .footer-content div {
     clear: both;
   }
 
