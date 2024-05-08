@@ -1,0 +1,105 @@
+---
+title: The Swag Scale
+layout: page
+---
+
+<h1>The SWAG Scale </h1>
+
+<form id="swagform" markdown="1" action="/submit" method="post">
+
+<div class="row">
+  <div class="column" markdown="1">
+    <h2> Year of issue</h2>
+
+    <div class="form-inline">
+      <select name="year" id="year">
+        <option value="5">'37-'54 - Golden Age / Pre-Code </option>
+        <option value="4">'55-'62 - Early Silver Age</option>
+        <option value="3">'63-'72 - Late Silver / Early Bronze</option>
+        <option value="2">'73-'76 - Bronze</option>
+        <option value="1">'77+ - Copper / Modern</option>
+      </select>
+    </div >
+  </div>
+
+  <div class="column" markdown="1">
+    <h2> Supply</h2>
+
+    <div class="form-inline">
+      <label for="census" >Total <a target="_blank" href="https://www.cgccomics.com/census/">CGC Census</a></label>
+      <select name="census" id="census">
+        <option value="5">0-300</option>
+        <option value="4">301-700</option>
+        <option value="3">701-4000</option>
+        <option value="2">4001-8000</option>
+        <option value="1">8,001-20,0000</option>
+      </select>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column" markdown="1">
+    <h2> Popularity</h2>
+
+    <div class="form-inline">
+      Popularity of main characters (heroes / villians)
+
+      <select name="popularity" id="popularity">
+        <option value="5">Top 20 hero / 10 villain</option>
+        <option value="4">Top 40 hero / 20 villain</option>
+        <option value="3">Top 60 / 30 villain</option>
+        <option value="2">Top 100 / 50 villain</option>
+        <option value="1">Top 150 / 75 villain</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="column" markdown="1">
+    <h2> Historical Demand</h2>
+
+    <div class="form-inline">
+    How many people want this book in their collection?
+
+      <select name="demand" id="demand">
+          <option value="5">Everyone</option>
+          <option value="4">Most</option>
+          <option value="3">Many</option>
+          <option value="2">Some</option>
+          <option value="1">Few</option>
+      </select>
+    </div>
+
+  </div>
+</div>
+
+<div class="row">
+  <div class="column" markdown="1">
+
+    <h2>Aesthetics</h2>
+
+    <input type="checkbox" id="cover" name="cover">
+    <label for="cover">Cover</label> - Exemplifies the significance of the book<br>
+
+    <input type="checkbox" id="coolCover" name="coolCover">
+    <label for="coolCover">Cool Cover</label> - Is it cool?<br>
+
+    <input type="checkbox" id="comicSeries" name="comicSeries">
+    <label for="comicSeries">Comic Series</label> - Is the series of general interest?<br>
+
+    <input type="checkbox" id="credits" name="credits">
+    <label for="credits">Credits</label> - Are the authors/artists well-known / important?<br>
+
+    <input type="checkbox" id="controversy" name="controversy">
+    <label for="controversy">Controversy?</label> - NO controversy about the significance of the book?<br>
+
+    <input id="btn" type="submit" value="Calculate Swag Rating!">
+
+</div>
+
+  <div class="column" markdown="1">
+    <div id="rating"></div>
+  </div>
+</div>
+
+</form>
