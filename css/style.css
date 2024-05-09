@@ -592,7 +592,7 @@ pre, code {
 
 footer {
   font-size: 11px;
-  margin: 70px 10px 30px 10px;
+  margin: 10px 10px 30px 10px;
 }
 
 .footer-content {
@@ -1035,7 +1035,7 @@ h2 a {
   }
 }
 
-/* ---------- Swag Form ----*/
+/* ---------------- Swag Form --------------*/
 
 label {
   font-weight: bold;
@@ -1065,7 +1065,7 @@ label {
 
 /* Add some margins for each label */
 label {
-  margin: 5px 10px 5px 0;
+  margin: 5px 0;
 }
 
 /* Style the input fields */
