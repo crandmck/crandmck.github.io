@@ -1,5 +1,7 @@
 # My GitHub pages site
 
+Test
+
 This is a microsite that I often use to test out GitHub pages stuff.
 
 ## Local Setup
